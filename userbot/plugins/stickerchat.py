@@ -1,5 +1,5 @@
 from telethon import events
-from userbot.utils import admin_cmd, sudo_cmd
+from userbot.utils import admin_cmd
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.errors.rpcerrorlist import StickersetInvalidError
 from telethon.errors import MessageNotModifiedError
