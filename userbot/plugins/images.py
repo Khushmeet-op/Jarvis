@@ -1,27 +1,27 @@
-# Adapted from OpenUserBot for Uniborg, X-tra-Telegram
+# Adapted from OpenUserBot for Uniborg
 
 """Download & Upload Images on Telegram\n
 Syntax: `.img <Name>` or `.img (replied message)`
 \n Upgraded and Google Image Error Fixed by @NeoMatrix90 aka @kirito6969
 """
 
-from userbot.googol_images import googleimagesdownload
+from userbot.google_images_download import googleimagesdownload
 import os
 import shutil
 from re import findall
-from userbot.utils import admin_cmd
+from uniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="img ?(.*)"))
 async def img_sampler(event):
-    await event.edit("`Processing...`")
+    await event.edit("`Processing ...`")
     reply = await event.get_reply_message()
     if event.pattern_match.group(1):
         query = event.pattern_match.group(1)
     elif reply:
         query = reply.message
     else:
-    	await event.edit("`um, mind mentioning what I actually need to search for ;_;`")
+    	await event.edit("`What I am Supposed to Search u Dumb Ass(Donkey)`")
     	return
         
     lim = findall(r"lim=\d+", query)
