@@ -6,7 +6,7 @@ from telethon.errors import MessageNotModifiedError
 # (c)2020 TeleBot
 
 @borg.on(admin_cmd(pattern="chat(?: |)(.*)"))
-@borg.on(sudo_cmd(outgoing=True, pattern="stickerchat(?: |$)(.*)"))
+@borg.on(admin_cmd(outgoing=True, pattern="stickerchat(?: |$)(.*)"))
 async def _(event):
   sender = await event.get_sender() ; me = await event.client.get_me()
   if not sender.id == me.id:
