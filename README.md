@@ -1,17 +1,19 @@
-# J.A.R.V.I.S. (Just A Rather Very Intelligent System) 
-This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram.
+# J.A.R.V.I.S (Just A Rather Very Intelligent System) 
+This is a telegram bot made for enhancing user specifications. I created this userbot with help of several other userbots available in telegram.
 
-For any query or want to know how it works join 
-# Thanks to @halto_tha and snapdragon
+For any queries or want to get know how it works! 
+Thanks to @halto_tha and snapdragon
 
+# WARNING!!!
 # FORK AT YOUR OWN RISK
-# Installing
 
-### The Easy Way
+## Installation process
+
+### The Easiest Way
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### The Normal Way
+### The Git command 
 
 Simply clone the repository and run the main file:
 ```sh
@@ -24,7 +26,7 @@ pip install -r requirements.txt
 python3 -m userbot
 ```
 
-An example `local_config.py` file could be:
+An example of file it could be:`local_config.py` 
 
 **Not All of the variables are mandatory**
 
@@ -50,8 +52,8 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 ## Mandatory Vars
 
-- Only two of the environment variables are mandatory.
-- This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
-    - `APP_ID`:   You can get this value from https://my.telegram.org
-    - `API_HASH`:   You can get this value from https://my.telegram.org
-- The userbot will not work without setting the mandatory vars.
+-> Only two of the environment variables are mandatory.
+-> This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
+    => `APP_ID`:   You can get this value from https://my.telegram.org
+    => `API_HASH`:   You can get this value from https://my.telegram.org
+-> The userbot will not work without setting the mandatory vars.
