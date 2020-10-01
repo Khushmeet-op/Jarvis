@@ -14,5 +14,5 @@ async def amireallyalive(alive):
     await alive.edit("`Jarvis at your service ^.^ \nYour bot is running\n\nTelethon version: 6.9.0\nPython: 3.7.3\n\n`"
                      f"`My peru owner`: {DEFAULTUSER}\n"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\n`\n"
-                     "`Database Status: Databases functioning normally!\nAlways with you, my master!\n`"
+                     "`Database Status: Databases functioning normally!\nAlways with you, my master!\n@Evilvenom2006 is Gay...`"
                      "")
