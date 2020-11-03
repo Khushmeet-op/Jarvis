@@ -8,7 +8,7 @@ import textwrap
 
 from PIL import Image, ImageDraw, ImageFont
 
-from telebot.utils import admin_cmd
+from userbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="mmf ?(.*)"))
